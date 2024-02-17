@@ -1,5 +1,5 @@
 Ex.No: 1 Implementation of Breadth First Search
-DATE:17-02-2024
+DATE:12-02-2024
 REGISTER NUMBER : 212221040128
 AIM:
 To write a python program to implement Breadth first Search.
@@ -39,3 +39,8 @@ def bfs(visited, graph, node): #function for BFS
 # Driver Code
 print("Following is the Breadth-First Search")
 bfs(visited, graph, '5')    # function calling
+Output:
+Screenshot 2024-02-12 161720
+
+Result:
+Thus the breadth first search order was found sucessfully.
