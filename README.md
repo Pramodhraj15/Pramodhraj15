@@ -1,34 +1,55 @@
-# Ex.No: 3  Implementation of Minimax Search
+# Ex.No: 10  Logic Programming –  Simple queries from facts and rules
 ### DATE:                                                                            
 ### REGISTER NUMBER : 212221040128
 ### AIM: 
-Write a mini-max search algorithm to find the optimal value of MAX Player from the given graph.
-### Algorithm:
-1. Start the program
-2. import the math package
-3. Specify the score value of leaf nodes and find the depth of binary tree from leaf nodes.
-4. Define the minimax function
-5. If maximum depth is reached then get the score value of leaf node.
-6. Max player find the maximum value by calling the minmax function recursively.
-7. Min player find the minimum value by calling the minmax function recursively.
-8. Call the minimax function  and print the optimum value of Max player.
-9. Stop the program. 
-
+To write a prolog program to find the answer of query. 
+###  Algorithm:
+ Step 1: Start the program <br> 
+ Step 2: Convert the sentence into First order Logic  <br> 
+ Step 3:  Convert the sentence into Horn clause form  <br> 
+ Step 4: Add rules and predicates in a program   <br> 
+ Step 5:  Pass the query to program. <br> 
+ Step 6: Prolog interpreter shows the output and return answer. <br> 
+ Step 8:  Stop the program.
 ### Program:
-
-
-
-
-
-
-
-
-
+### Task 1:
+Construct the FOL representation for the following sentences <br> 
+1.	John likes all kinds of food.  <br> 
+2.	Apples are food.  <br> 
+3.	Chicken is a food.  <br> 
+4.	Sue eats everything Bill eats. <br> 
+5.	 Bill eats peanuts  <br> 
+   Convert into clause form and Prove that John like Apple by using Prolog. <br> 
+### Program:
 
 
 ### Output:
 
+### Task 2:
+Consider the following facts and represent them in predicate form: <br>              
+1.	Steve likes easy courses. <br> 
+2.	Science courses are hard. <br> 
+3. All the courses in Have fun department are easy <br> 
+4. BK301 is Have fun department course.<br> 
+Convert the facts in predicate form to clauses and then prove by resolution: “Steve likes BK301 course”<br> 
+
+### Program:
+
+
+### Output:
+
+### Task 3:
+Consider the statement <br> 
+“This is a crime for an American to sell weapons to hostile nations. The Nano , enemy of America has some missiles and its missiles were sold it by Colonal West who is an American” <br> 
+Convert to Clause form and prove west is criminal by using Prolog.<br> 
+### Program:
+
+
+### Output:
+![image](https://github.com/Pramodhraj15/Pramodhraj15/assets/130092183/8c5e8ce4-2283-4f9b-9333-3de20f46c500)
+![image](https://github.com/Pramodhraj15/Pramodhraj15/assets/130092183/b6a08e71-ae8f-40d6-9954-07ad55abaa20)
+
 
 
 ### Result:
-Thus the optimum value of max player was found using minimax search.
+Thus the prolog programs were executed successfully and the answer of query was found.
